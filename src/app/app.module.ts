@@ -28,8 +28,6 @@ import { HomeModule } from './home/home.module';
     BrowserModule,
     NgbModule.forRoot(),
     FormsModule,
-    RouterModule,
-    AppRoutingModule,
     HomeModule
   ],
   providers: [],

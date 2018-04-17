@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500" id="navbar-scroll">
     <div class="container">
         <div class="navbar-translate">
             <a class="navbar-brand" href="">AV Profile</a>
@@ -8,41 +8,31 @@
                 <span class="navbar-toggler-bar"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse" id="navbarToggler">
+        <div class="navbar-scroll-to collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a class="nav-link" rel="tooltip" title="Connect on LinkedIn" data-placement="bottom" href="https://linkedin.com/in/archanavisveswaran" target="_blank">
-                        <i class="fa fa-linkedin"></i>
-                        <p class="d-lg-none">LinkedIn</p>
-                    </a>
+                <!--<li class="nav-item" *ngIf="!isDocumentation()">-->
+                    <!--<a class="nav-link" rel="tooltip" title="Connect on LinkedIn" data-placement="bottom" href="https://linkedin.com/in/archanavisveswaran" target="_blank">-->
+                        <!--<i class="fa fa-linkedin"></i>-->
+                        <!--<p class="d-lg-none">LinkedIn</p>-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item" *ngIf="!isDocumentation()">-->
+                    <!--<a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom" href="https://www.github.com/archana-vish/WebResume" target="_blank">-->
+                        <!--<i class="fa fa-github"></i>-->
+                        <!--<p class="d-lg-none">GitHub</p>-->
+                    <!--</a>-->
+                <!--</li>-->
+                <li class="nav-item" >
+                    <a href="#summary" class="nav-link" ><i class="nc-icon nc-badge"></i> Summary</a>
                 </li>
-                <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom" href="https://www.github.com/archana-vish/WebResume" target="_blank">
-                        <i class="fa fa-github"></i>
-                        <p class="d-lg-none">GitHub</p>
-                    </a>
+                <li class="nav-item" >
+                    <a href="#skillset" class="nav-link" ><i class="nc-icon nc-bulb-63"></i> Skill Set</a>
                 </li>
-                <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a href="http://pk2-angular.creative-tim.com/documentation/tutorial" class="nav-link" target="_blank"><i class="nc-icon nc-badge"></i> Summary</a>
+                <li class="nav-item" >
+                    <a href="#experience" class="nav-link" ><i class="nc-icon nc-bullet-list-67"></i> Experience</a>
                 </li>
-                <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a href="http://pk2-angular.creative-tim.com/documentation/tutorial" class="nav-link" target="_blank"><i class="nc-icon nc-bulb-63"></i> Skill Set</a>
-                </li>
-                <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a href="http://pk2-angular.creative-tim.com/documentation/tutorial" class="nav-link" target="_blank"><i class="nc-icon nc-bullet-list-67"></i> Experience</a>
-                </li>
-                <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a href="http://pk2-angular.creative-tim.com/documentation/tutorial" class="nav-link" target="_blank"><i class="nc-icon nc-world-2"></i> Connect</a>
-                </li>
-                <!-- <li class="nav-item" *ngIf="isHome()">
-                    <a href="https://www.creative-tim.com/product/paper-kit-2-pro?ref=pk2-free-local" target="_blank" class="btn btn-danger btn-round disabled">Upgrade to Pro</a>
-                </li> -->
-                <li class="nav-item" *ngIf="!isHome()">
-                    <a [routerLink]="['/home']" *ngIf="!isDocumentation()" class="nav-link"><i class="nc-icon nc-layout-11"></i>Components</a>
-                    <a [routerLink]="['/home']" *ngIf="isDocumentation()" class="nav-link">Back to Kit</a>
-                </li>
-                <li class="nav-item" *ngIf="isDocumentation()">
-                    <a href="https://github.com/creativetimofficial/pk-free-angular/issues?ref=pk2-free-local" target="_blank" class="nav-link">Have an issue</a>
+                <li class="nav-item" >
+                    <a href="#connect" class="nav-link" ><i class="nc-icon nc-world-2"></i> Connect</a>
                 </li>
             </ul>
         </div>

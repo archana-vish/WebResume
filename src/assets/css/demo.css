@@ -1282,3 +1282,23 @@ pre.prettyprint {
     position: relative;
     z-index: 2;
 }
+.tab-nav-elements, .dark-row-content {
+    color: #ffffff;
+}
+
+.dark-row-content-panel {
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.light-row-content-panel {
+    color: #000000;
+
+}
+
+.hr-title-line {
+    width: 30%;
+    display: block;
+    border-width: medium;
+}
