@@ -87,6 +87,9 @@ $(document).ready(function(){
     // Init Sliders
     pk.initSliders();
 
+    // Hide profile
+    document.getElementById('profile').style.visibility = 'hidden';
+
 });
 
 
@@ -138,11 +141,13 @@ pk = {
         	if($(document).scrollTop() > $(".navbar").attr("color-on-scroll") ) {
                 if(transparent) {
                     transparent = false;
+                    document.getElementById('profile').style.visibility = 'visible';
                     $('.navbar[color-on-scroll]').removeClass('navbar-transparent');
                 }
             } else {
                 if( !transparent ) {
                     transparent = true;
+                    document.getElementById('profile').style.visibility = 'hidden';
                     $('.navbar[color-on-scroll]').addClass('navbar-transparent');
                 }
             }
