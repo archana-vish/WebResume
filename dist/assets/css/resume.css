@@ -1,0 +1,25 @@
+.btn-nav-outline-default {
+    border-color: #66615B;
+    color: #66615B;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.btn-nav-outline-default:hover, .btn-nav-outline-default:focus, .btn-nav-outline-default:active, .btn-nav-outline-default.active, .open > .btn-nav-outline-default.dropdown-toggle {
+    background-color: #ffffff;
+    color: rgba(255, 255, 255, 0.8);
+    border-color: #ffffff;
+}
+.btn-nav-outline-default:hover .caret, .btn-nav-outline-default:focus .caret, .btn-nav-outline-default:active .caret, .btn-nav-outline-default.active .caret, .open > .btn-nav-outline-default.dropdown-toggle .caret {
+    border-top-color: rgba(255, 255, 255, 0.8);
+}
+.btn-nav-outline-default .caret {
+    border-top-color: #FFFFFF;
+}
+.btn-nav-outline-default.disabled, .btn-nav-outline-default.disabled:hover, .btn-nav-outline-default.disabled:focus, .btn-nav-outline-default.disabled.focus, .btn-nav-outline-default.disabled:active, .btn-nav-outline-default.disabled.active, .btn-nav-outline-default:disabled, .btn-nav-outline-default:disabled:hover, .btn-nav-outline-default:disabled:focus, .btn-nav-outline-default:disabled.focus, .btn-nav-outline-default:disabled:active, .btn-nav-outline-default:disabled.active, .btn-nav-outline-default[disabled], .btn-nav-outline-default[disabled]:hover, .btn-nav-outline-default[disabled]:focus, .btn-nav-outline-default[disabled].focus, .btn-nav-outline-default[disabled]:active, .btn-nav-outline-default[disabled].active, fieldset[disabled] .btn-nav-outline-default, fieldset[disabled] .btn-nav-outline-default:hover, fieldset[disabled] .btn-nav-outline-default:focus, fieldset[disabled] .btn-nav-outline-default.focus, fieldset[disabled] .btn-nav-outline-default:active, fieldset[disabled] .btn-nav-outline-default.active {
+    background-color: transparent;
+    border-color: #66615B;
+}
+.tab-nav-elements {
+    color: #ffffff;
+    font-weight:bold;
+}
