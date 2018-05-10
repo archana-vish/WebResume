@@ -2378,7 +2378,7 @@ textarea.form-control {
 .scroll-area {
   max-height: 310px;
   overflow-y: scroll;
-  list-style: outside none none;
+  list-xstyle: outside none none;
   padding: 0px;
 }
 
