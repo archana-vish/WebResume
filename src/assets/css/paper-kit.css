@@ -5956,3 +5956,6 @@ textarea.form-control {
 .following img {
   max-width: 70px;
 }
+
+.banner {
+  background-attachment: fixed;
